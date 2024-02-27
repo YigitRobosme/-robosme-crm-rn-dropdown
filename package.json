@@ -1,0 +1,25 @@
+{
+  "name": "@robosme-crm/rn-dropdown",
+  "version": "1.2.2",
+  "description": "Robosme CRM RN Dropdown",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YigitRobosme/-robosme-crm-rn-dropdown.git"
+  },
+  "keywords": [
+    "robosme"
+  ],
+  "author": "robosme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YigitRobosme/-robosme-crm-rn-dropdown/issues"
+  },
+  "homepage": "https://github.com/YigitRobosme/-robosme-crm-rn-dropdown#readme"
+}

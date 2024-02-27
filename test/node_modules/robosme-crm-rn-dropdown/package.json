@@ -1,6 +1,6 @@
 {
   "name": "@robosme-crm/rn-dropdown",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Robosme CRM React Native Dropdown",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -51,14 +51,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoaphantn7604/react-native-element-dropdown.git"
+    "url": "git+https://github.com/YigitRobosme/-robosme-crm-rn-dropdown.git"
   },
-  "author": "Hoa Phan <hoaphantn7604@gmail.com> (https://github.com/hoaphantn7604)",
+  "author": "Yigit A.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hoaphantn7604/react-native-element-dropdown/issues"
-  },
-  "homepage": "https://github.com/hoaphantn7604/react-native-element-dropdown#readme",
+  "homepage": "https://github.com/YigitRobosme/-robosme-crm-rn-dropdown",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -165,8 +162,17 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module"
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/YigitRobosme/-robosme-crm-rn-dropdown/issues"
   },
   "directories": {
     "lib": "lib"
